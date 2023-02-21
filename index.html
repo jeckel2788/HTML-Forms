@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HTML-Forms</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+
+
+</div>
+
+  
+  
+<form>
+  <fieldset>
+  <div class="name">
+    <label for="name">Full Name:</label>
+    <input
+      id="name"
+      type="text"
+      name="name"
+      placeholder="Enter Your Full Name"
+      />
+  </div>
+  <div class="email">
+    <label for="email">E-Mail Address:</label>
+    <input
+      id="email"
+      type="text"
+      name="email-address"
+      placeholder="Valid Email Address"
+      required
+      />
+  </div>
+    
+    <div class="location">
+    <label for="location">Zipcode:</label>
+    <input
+      id="location"
+      type="text"
+      name="zipcode"
+      autofocus="on"
+      required
+      placeholder="Enter your Zipcode"
+      />
+  </div>
+  </fieldset>
+  <div class="choose-font">
+    <h2>Choose a font:</h2>
+    <select name="fonts" size="1">
+      <option value="arial">Arial</option>
+      <option value="times">Times New Roman</option>
+      <option value="comicsans">Comic Sans</option>
+      <option value="papyrus">Papyrus</option>
+    </select>
+  </div>
+  <div class="message">
+    <label for="form-message">Your message:</label>
+    <textarea
+      id="form-message"
+      name="message"
+      autofocus="on"
+      maxlength="200"
+      placeholder="How can I be of service?"
+      ></textarea>
+      </div>
+  
+
+  <div class="btn-2">
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </div>
+  </form>
+  </main>
+</body>
+</html>
+
+
